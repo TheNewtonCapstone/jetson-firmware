@@ -1,0 +1,19 @@
+robot_name: newton
+
+motors_params:
+  # HAA : Hip Abduction/Adduction
+  FL_HAA:
+    name: FL_HAA
+    node_id: 0
+    offset: 0
+    position_limit: 1
+    velocity_limit: 1
+    torque_limit: 1
+  
+  FL_HFE:
+    name: FL_HFE
+    node_id: 1
+    offset: 0
+    position_limit: 1
+    velocity_limit: 1
+    torque_limit: 1
